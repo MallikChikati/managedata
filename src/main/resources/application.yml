@@ -1,0 +1,16 @@
+# SQL Server Configuration
+spring:
+   datasource:
+     url: jdbc:sqlserver://localhost;databases=tempdb
+     username: sa
+     password: sa
+   jpa:
+     generate-ddl: true
+     show-sql: true
+     ddl-auto: update
+   hibernate:
+    dialect:  org.hibernate.dialect.SQLServer2012Dialect
+
+
+
+
